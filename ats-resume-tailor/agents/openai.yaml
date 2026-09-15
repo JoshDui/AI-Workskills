@@ -1,0 +1,4 @@
+interface:
+  display_name: "ATS Resume Tailor"
+  short_description: "Tailor resumes to job descriptions"
+  default_prompt: "Use $ats-resume-tailor to tailor my resume index to this job description and generate a resume plus match report."

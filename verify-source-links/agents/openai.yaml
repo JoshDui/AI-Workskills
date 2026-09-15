@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Source Links"
+  short_description: "Double-check cited source links"
+  default_prompt: "Use $verify-source-links to verify every source link before citing it."

@@ -1,0 +1,39 @@
+% ATS Resume Tailor LaTeX structure.
+% The helper script renders an equivalent document directly. Use this file
+% as a reference when custom rendering is needed.
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.5in,right=0.5in,top=0.4in,bottom=0.4in]{geometry}
+\usepackage{enumitem,titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+\setlist[itemize]{nosep,left=0pt,label=\textbullet,topsep=1pt,itemsep=1pt}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries NAME}\\[3pt]
+EMAIL \enspace|\enspace PHONE \enspace|\enspace LINKS
+\end{center}
+
+\section{Education}
+EDUCATION
+
+\section{Experience}
+EXPERIENCE
+
+\section{Projects}
+PROJECTS
+
+\section{Skills}
+SKILLS
+
+\section{Certifications}
+CERTIFICATIONS
+
+\end{document}
